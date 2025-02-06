@@ -1,0 +1,7 @@
+name: Conditions
+on: push
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "result=hello" >> "${GITHUB_OUTPUT}"
